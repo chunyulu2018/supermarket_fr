@@ -1,4 +1,4 @@
-package com.jp.project.config;
+package com.jp.supermarket.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.beans.factory.annotation.Autowired;

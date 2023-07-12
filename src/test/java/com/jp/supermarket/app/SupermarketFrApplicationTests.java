@@ -1,4 +1,4 @@
-package com.jp.project.supermarket;
+package com.jp.supermarket.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
