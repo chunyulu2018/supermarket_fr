@@ -9,7 +9,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SupermarketFrApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(SupermarketFrApplication.class, args);
+		System.setProperty("spring.devtools.restart.enabled","true");
 	}
 
 }
