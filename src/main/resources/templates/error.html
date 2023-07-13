@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 <head lang="en">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>エラー画面</title>
 </head>
 <body>
-<h2 style="text-align: center;color: red;">あなたの行きたいページが火星に飛んできました！</h2>
-<a th:href="${pageContext.request.contextPath}/login.html"> <img src="/images/error.png"  alt="">ログイン</a>
+    <h2 style="text-align: center;color: red;">あなたの行きたいページが火星に飛んできました！</h2>
+    <a th:href="@{/login}" style="display: block; text-align: center;">
+        <img th:src="@{/images/error.png}"  alt=""><br>
+         ログイン</a>
+<!--${pageContext.request.contextPath}-->
+
 </body>
 </html>
