@@ -4,12 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Thymeleafテスト</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link th:href="@{/css/style.css}" rel="stylesheet"/>
 </head>
 <body>
     <h1 th:text="${msg}"></h1>
     <header class="loginHeader">
-
         <h1 th:text="${supermarket}"></h1>
         <h2 th:text="${test}"></h2>
     </header>

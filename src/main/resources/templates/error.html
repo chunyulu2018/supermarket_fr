@@ -6,6 +6,7 @@
 </head>
 <body>
 <h2 style="text-align: center;color: red;">あなたの行きたいページが火星に飛んできました！</h2>
-<a th:href="${pageContext.request.contextPath}/login.html"> <img src="/images/error.png"  alt="">ログイン</a>
+<a th:href="@{/login}"> <img th:src="@{/images/error.png}"/>ログイン</a>
+
 </body>
 </html>
